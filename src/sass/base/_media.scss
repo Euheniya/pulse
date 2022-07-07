@@ -1,7 +1,11 @@
+@media (max-width: 1199px) {
+    .container {
+        padding: 0 10px;
+    }
+}
 @media (max-width: 991px) {
     .container {
         max-width: 900px;
-        padding-right: 10px;
     }
     .header {
         &__phone {
@@ -76,6 +80,16 @@
         &__descr {
             font-size: 17px;
             margin-bottom: 30px;
+        }
+    }
+
+    .title_white {
+        font-size: 25px;
+    }
+    .consultation {
+        &__descr {
+            font-size: 15px;
+            line-height: 25px;
         }
     }
 }
