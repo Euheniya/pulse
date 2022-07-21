@@ -34,6 +34,8 @@
     slider.goTo('next');
   });
 
+  
+
   $(document).ready(function(){
     $('ul.catalog__tabs').on('click', 'li:not(.catalog__tab_active)', function() {
       $(this)
@@ -70,3 +72,5 @@
     toggleSlide('.catalog-item__link');
     toggleSlide('.catalog-item__back');
   });
+
+  
