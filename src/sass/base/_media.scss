@@ -8,6 +8,15 @@
     .carousel .next {
         right: 0;
     }
+    .reviews {
+        &__descr {
+            width: 100%;
+        }
+    br {
+        display: none;
+    }
+}
+
 }
 @media (max-width: 991px) {
     .container {
@@ -22,6 +31,21 @@
     .tns-item {
         img {
            width: 80%;
+        }
+    }
+    .reviews {
+        &__item {
+            flex-direction: column;
+        }
+        &__photo {
+            display: block;
+            margin: 0 auto;
+        }
+        &__wrapper {
+            margin: 0;
+        }
+        &__name {
+            margin-top: 60px;
         }
     }
 }
@@ -79,6 +103,11 @@
     }
     .title {
             font-size: 27px;
+    }
+    .reviews {
+        &__items {
+            margin: 0;
+        }
     }
     
 }
@@ -151,6 +180,11 @@
             &__new-price {
                 font-size: 18px;
             }
+        }
+    }
+    .reviews {
+        &__items {
+            margin: 0 20px;
         }
     }
 }
