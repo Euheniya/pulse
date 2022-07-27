@@ -48,6 +48,28 @@
             margin-top: 60px;
         }
     }
+    .footer {
+        &__info {
+            width: 350px;
+            height: 200px;
+            padding-bottom:35px;
+        }
+        &__addr {
+            font-size: 13px;
+            margin-bottom: 15px;
+        }
+        &__phone {
+            font-size: 15px;
+        }
+        &__social {
+            margin-top: 15px;
+            img {
+                margin: 0 7px;
+                width: 41px;
+                height: 40px;
+            }
+        }
+    }
 }
 
 @media (max-width: 767px) {
@@ -177,8 +199,11 @@
             font-size: 10px;
         }
         &-item {
+            margin-right: 0;
+            margin-left: 0;
             &__new-price {
                 font-size: 18px;
+                
             }
         }
     }
@@ -186,5 +211,13 @@
         &__items {
             margin: 0 20px;
         }
+    }
+    .footer {
+        &__info {
+            width: 100%;
+            padding-right: 40px;
+            padding-left: 40px;
+        }
+    
     }
 }
