@@ -193,6 +193,7 @@
     }
     .button_submit {
        height: 40px;
+       font-size: 12px;
     }
     .catalog {
         &__tab {
@@ -218,6 +219,13 @@
             padding-right: 40px;
             padding-left: 40px;
         }
-    
+    }
+    .modal {
+        width: 250px;
+        &__close {
+            font-size: 21px;
+            line-height: 8px;
+            left: calc(100% + 10px);
+        }
     }
 }
