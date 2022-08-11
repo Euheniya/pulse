@@ -1,0 +1,231 @@
+@media (max-width: 1199px) {
+    .container {
+        max-width: 960px;
+    }
+    .carousel .prev {
+        left: 0;
+    }
+    .carousel .next {
+        right: 0;
+    }
+    .reviews {
+        &__descr {
+            width: 100%;
+        }
+    br {
+        display: none;
+    }
+}
+
+}
+@media (max-width: 991px) {
+    .container {
+        max-width: 720px;
+    }
+    .header {
+        &__phone {
+        font-size: 16px;
+    }
+    
+    }
+    .tns-item {
+        img {
+           width: 80%;
+        }
+    }
+    .reviews {
+        &__item {
+            flex-direction: column;
+        }
+        &__photo {
+            display: block;
+            margin: 0 auto;
+        }
+        &__wrapper {
+            margin: 0;
+        }
+        &__name {
+            margin-top: 60px;
+        }
+    }
+    .footer {
+        &__info {
+            width: 350px;
+            height: 200px;
+            padding-bottom:35px;
+        }
+        &__addr {
+            font-size: 13px;
+            margin-bottom: 15px;
+        }
+        &__phone {
+            font-size: 15px;
+        }
+        &__social {
+            margin-top: 15px;
+            img {
+                margin: 0 7px;
+                width: 41px;
+                height: 40px;
+            }
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        max-width: 540px;
+    }
+    .header{
+        
+        &__official {
+            width: 40%;
+        }
+    }
+    .promo {
+        &__header{
+            font-size: 35px;
+    }
+        &__subheader {
+            font-size: 20px;
+        }
+        &__icon {
+            font-size: 12px;
+        }
+        &__link {
+            font-size: 14px;
+        }
+    }
+    .advantages {
+        &__items {
+        flex-direction: column;
+        }
+        &__item {
+            width: 100%;
+            padding: 0;
+        }
+    }
+    .carousel .prev {
+        left: -15px;
+        img {
+            width: 20px;
+        }
+    }
+    .carousel .next {
+        right: -15px;
+        img {
+            width: 20px;
+        }
+    }
+
+    .button_main {
+        width: 240px;
+        height: 40px;
+        font-size: 13px;
+    }
+    .title {
+            font-size: 27px;
+    }
+    .reviews {
+        &__items {
+            margin: 0;
+        }
+    }
+    
+}
+
+@media (max-width: 576px) {
+    .container {
+        width: 90%;
+    }
+    .header {
+    &__logo {
+        img {
+            width: 90%;
+        }
+    }   
+        &__official {
+            display: none;
+        }
+        &__phone {
+            display: none;
+        }
+    }
+
+    .promo {
+        &__header {
+            font-size: 28px;
+        }
+        &__subheader {
+            font-size: 16px;
+        }
+        &__icon {
+            margin: 0 0 65px 30px;
+            font-size: 13px;
+        }
+    }
+    .advantages {
+        
+        &__subheader {
+            font-size: 20px;
+        }
+        &__descr {
+            font-size: 17px;
+            margin-bottom: 30px;
+        }
+    }
+
+    .title_white {
+        font-size: 25px;
+        line-height: 45px;
+    }
+    .consultation {
+        &__descr {
+            font-size: 15px;
+            line-height: 22px;
+        }
+    }
+    .feed-form {
+        width: 100%;
+        input {
+            height: 40px;
+        }
+    }
+    .button_submit {
+       height: 40px;
+       font-size: 12px;
+    }
+    .catalog {
+        &__tab {
+            font-size: 10px;
+        }
+        &-item {
+            margin-right: 0;
+            margin-left: 0;
+            &__new-price {
+                font-size: 18px;
+                
+            }
+        }
+    }
+    .reviews {
+        &__items {
+            margin: 0 20px;
+        }
+    }
+    .footer {
+        &__info {
+            width: 100%;
+            padding-right: 40px;
+            padding-left: 40px;
+        }
+    }
+    .modal {
+        width: 250px;
+        &__close {
+            font-size: 21px;
+            line-height: 8px;
+            left: calc(100% + 10px);
+        }
+    }
+}
